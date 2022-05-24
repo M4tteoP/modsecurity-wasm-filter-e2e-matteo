@@ -4,7 +4,7 @@
 step=1
 total_steps=3
 max_retries=10 #seconds for the server reachability timeout
-health_url=health_url
+health_url=$HEALTH_URL
 envoy_url_unfiltered=$REQ_UNFILTERED
 envoy_url_filtered=$REQ_FILTERED
 
